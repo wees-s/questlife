@@ -1,0 +1,17 @@
+{
+  "name": "lifequest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LifeQuest — Transforme sua vida real em um RPG",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:offline": "cd backend && OFFLINE_MODE=true npm run dev",
+    "test": "cd backend && npm test",
+    "test:offline": "cd backend && npm run test:offline",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "migrate": "cd backend && npm run migrate",
+    "seed": "cd backend && npm run seed"
+  }
+}
